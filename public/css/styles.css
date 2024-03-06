@@ -1,0 +1,89 @@
+body 
+{
+    background-image: url('/images/background.jpg');
+    background-size: cover; 
+}
+
+.container {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center; /* Align items horizontally in the center */
+    align-items: center; /* Align items vertically in the center */
+    min-height: calc(100vh-20px); /* Ensure container takes up at least the full viewport height */
+}
+
+.wlcm-img {
+    height:250px;
+    width: 300px;;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.btn {
+    color: whitesmoke;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.end {
+    color: whitesmoke;
+    margin-left:2%;
+    margin-top: 3%;
+}
+
+.card {
+    width: 500px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center; /* Align items horizontally in the center */
+    align-items: center; /* Align items vertically in the center */
+    background-color: transparent;
+    border-color: aliceblue;
+    border-radius: 20px;
+    border-width: 10px;
+    
+    /* border-style: dotted; */
+}
+
+.card-header 
+{
+    color: aliceblue;
+    font-size: 45px;
+    font-family: "Madimi One", sans-serif;
+}
+
+.card-title
+{
+    color: #9BB0C1;
+    font-size: 35px;
+    font-family: "Madimi One", sans-serif;
+}
+
+.card-text {
+    color: #B7C9F2;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.card-footer {
+    color: honeydew;
+    font-family: "Madimi One", sans-serif;
+    padding-left: 0;
+    margin-left: 0;
+}
